@@ -9,7 +9,7 @@ class Db {
       password: "postgres",
       host: "localhost",
       port: 5432,
-      database: "postgres",
+      database: "user_db",
     });
   }
 }

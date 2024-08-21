@@ -13,8 +13,8 @@ async function seed() {
     //execution
     await connection.query(addUser);
     console.log('User Inserted');
-    const usersData = await connection.query(users);
-    console.log(usersData);
+    
+    
     
 
     process.exit(0)

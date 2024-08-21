@@ -9,7 +9,7 @@ async function migrate () {
     const createTable = `
       CREATE TABLE "tbl_user" (
         "Id" SERIAL PRIMARY KEY,
-        "Username" VARCHAR(128) NOT NULL,
+        "Username" VARCHAR(128) UNIQUE NOT NULL,
         "Password" VARCHAR(60) NOT NULL,
         "CreateTime" DATE NOT NULL DEFAULT CURRENT_DATE
     );
