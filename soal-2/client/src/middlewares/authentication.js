@@ -4,4 +4,5 @@ export default function authentication() {
   if (!localStorage.getItem('access_token')) {
     return redirect('/login');
   }
+  return null;
 }
