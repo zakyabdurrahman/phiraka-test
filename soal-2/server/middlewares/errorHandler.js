@@ -6,6 +6,16 @@ function errorHandler(error, req, res, next) {
     message = error.msg;
     status = 401;
   }
+
+  if (error.msg === "Please login first") {
+    message = error.msg;
+    status = 401;
+  }
+
+  if (error.msg === "Please fill reCAPTCHA") {
+    message = error.msg;
+    status = 401;
+  }
   res.status(status).json({
     message: message,
   });

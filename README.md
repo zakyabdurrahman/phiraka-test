@@ -25,4 +25,10 @@ npm i
 node migrations/migration.js  
 node seeders/seeder.js  
 node app.js  
+```   
+Then go to client folder in soal-2, and run the following commands:  
+```bash  
+npm i  
+npm run dev  
 ```  
+click the link displayed on your terminal  
