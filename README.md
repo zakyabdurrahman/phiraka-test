@@ -26,9 +26,12 @@ node migrations/migration.js
 node seeders/seeder.js  
 node app.js  
 ```   
+#### Client Setup  
 Then go to client folder in soal-2, and run the following commands:  
 ```bash  
 npm i  
 npm run dev  
 ```  
-click the link displayed on your terminal  
+click the link displayed on your terminal. 
+#### Important Note
+When you try to login and it said captcha failed even though the account credentials are correct and recaptcha is checked, try to refresh so you can get a new capthca
