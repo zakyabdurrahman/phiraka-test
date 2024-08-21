@@ -11,7 +11,8 @@ After that go to the link that appear in the console. It's most likely `http://l
   
 ## Soal 2   
 For my implementation, I use manual SQL Queries using node-postgres (which from what I gather is the instruction), which has limitation as it can't create a new database if its not already exist, it only connect to an existing database, so to run this app, please make sure that `user_db` database already exists on your local machine's PostgreSQL. The archictecture is client - server so you need to run both the server and the client to access the application  
-The default User for testing is:   
+   
+The default User for testing is:    
 Username: admin  
 Password: 12345  
 ### Tech Stacks  
@@ -34,4 +35,4 @@ npm run dev
 ```  
 click the link displayed on your terminal. 
 #### Important Note
-When you try to login and it said captcha failed even though the account credentials are correct and recaptcha is checked, try to refresh so you can get a new capthca
+When you try to login and it said captcha failed even though the account credentials are correct and recaptcha is checked, try to refresh so you can get a new capthca  
