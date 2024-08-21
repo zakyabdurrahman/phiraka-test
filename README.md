@@ -19,7 +19,7 @@ Password: 12345
 Express, PostgreSQL, React + Vite, Tailwind  
 ### How to Run   
 #### Server Setup  
-Create a database named `db_user` on your local postgres.  
+Create a database named `user_db` on your local postgres.  
 Go to server folder in soal-2, and run the following commands:  
 ```bash
 npm i  
